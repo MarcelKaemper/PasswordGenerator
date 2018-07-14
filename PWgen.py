@@ -42,6 +42,7 @@ def Char():#4
 for i in range(amount):
     with open(name+".txt","a") as w:
         w.write("\n"*5)
-        w.write("_______________________"+" "*10)
+        w.write("_______________________"+" "*5)
+        w.write("_______________________"+" "*5)
         w.write("".join(gen()))
         final_string = [""]
